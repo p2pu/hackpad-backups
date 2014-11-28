@@ -1,0 +1,69 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Language" content="en-us" />
+<meta name="version" content="3157"/>
+<style>body {font-family:Helvetica}ul.comment{list-style-image:url('https://hackpad.com/static/img/comment.png');} ul.task{list-style-image:url('https://hackpad.com/static/img/unchecked.png');}ul.taskdone{list-style-image:url('https://hackpad.com/static/img/checked.png');} </style><title>/3490$lcl2</title>
+</head>
+<body><h1>lcl2</h1><p></p><p><b>Questions &amp; Answers with <a href='/ep/profile/ppBMkttdzda'/>Dirk Uys</a> and <a href='/ep/profile/Dc7zU8svumi'/>Philipp Schmidt</a></b></p><p></p><p>Where is the course site hosted?</p><ul><li>It&rsquo;s a Jekyll site hosted as Github Pages</li>
+<li>Threaded discussion on individual pages is provided through disqus</li></ul>
+
+<p>Are you using the site as a blog, static content or both? Will weekly communication be posted to the site?</p><ul><li>We will post the emails we send out on the course home page. We will also add a full syllabus (which is currently under development).</li></ul>
+
+<p>Where does community discussion happen?</p><ul><li>Discourse. <a href="http://discuss-learn.media.mit.edu"></a><a href='http://discuss-learn.media.mit.edu'/>http://discuss-learn.media.mit.edu</a> (hosted on AWS)</li></ul>
+
+<p>Are you concerned about the two separate discussion tools, disqus and discourse?</p><ul><li>Not really. We are minimizing the use of disqus. It&rsquo;s just a way to leave comments on the static pages.</li></ul>
+<ul class="comment"><li>Have you seen the discourse integration for wordpress? Would you consider that to be a better solution if something like that existed for Jekyll? <a href="https://github.com/discourse/wp-discourse"></a>https://github.com/discourse/wp-discourse<ul class="comment"><li>I hadn&rsquo;t seen that. Not sure I see the benefit. It seems to just duplicate discourse (topics become posts on the wordpress site, and comments are linked as discussion thread). Why would you want the same information in two places? What would be nice is if we could tie the Discourse discussion thread into Wordpress, so that instead of Disqus comments, we embed Discourse comments (those can live on the Discourse site as well).&nbsp;</li>
+<li>I&rsquo;m also not 100% sure of the functionality. On the discourse forum there is a thread about it and CodingHorror mentions the difference between community and editorial. What I understand from the integration is that a new post on WP creates a new topic and the WP admin can pull select comments from the topic to display below the blog. People can&rsquo;t comment on the same page as the post, but they are invited to join the discussion on discourse.</li></ul>
+</ul>
+
+<p>What are you using for signup?</p><ul><li>There is no &quot;official&quot; sign-up for the course, but we are asking people to register their email address for a MailChimp mailing list if they want updates and notifications about the course.&nbsp;</li>
+<li>Side note: MailChimp makes sense, because your account can be linked to Mandrill, and Mandrill is the default mail handling service for Discourse - so we don&rsquo;t have to deal with many different services). On the other hand MailChimp had a server problem last night ;-)</li></ul>
+
+<p>Do you plan on doing pre/post course surveys? If so, using what tools?</p><ul><li>Yes, but haven&rsquo;t decided on tools. Some of the options we&rsquo;ve been discussing include pop-up questionnaires before and after unhangout sessions, or more traditional surveys that are sent out via email (link to the survey). We are also interested how we could collect some user data through discourse, but have not found a great solution. Some people are using Topics for people to reply with Yes or No for simple polling.&nbsp;</li></ul>
+
+<p>What data are you gathering?</p><ul><li>TBD</li>
+<li>Basic google analytics on the site</li>
+<li>Mail-Chimp stores sign-up data</li>
+<li>We will also keep a record of use of unhangouts (users log-in with their Google ID)</li>
+<li>Question back: Does Discourse keep a history of user log-in and activity? I know that it calculates your user level based on time on site (in addition to other factors) so it does &quot;know&quot; how often and for how long you are on the site.</li>
+<li>I don&rsquo;t know what it gives you automatically and I&rsquo;m unsure of what it stores in the db - I think it does try to give some stats relevant to a community.</li></ul>
+
+<p>Are you doing any specific experiments during this course?</p><ul><li>We are (again) trying to experiment with grouping.&nbsp;</li>
+<li>We are also trying to use &quot;protocols&quot; for break-out groups in unhangouts</li></ul>
+
+<p>Can you explain what a protocol for the break-out groups looks like?</p><ul><li>Not yet. It&rsquo;s one of the things we want to experiment with. But we recently found out about the &quot;protocols&quot; that High Tech High use for their teacher training and we think we can learn a lot from their work.&nbsp;</li></ul>
+
+<p>How will you group users or will they group themselves?</p><ul><li>That&rsquo;s a big unanswered question. The overall goal is twofold: better groups than would be achieved by randomly grouping users; and giving users agency in the grouping process.</li></ul>
+
+<p>How will groups communicate with each other? Will this communication be private to the group?</p><ul><li>We don&rsquo;t know yet.&nbsp;</li></ul>
+
+<p>What are you planning to use to facilitate feedback?</p><ul><li>Overall feedback about the course and how it works will take place in the &quot;About this Forum&quot; category on Discourse that we hope people will use to discuss the community.&nbsp;</li></ul>
+
+<p>Will learners have some sort of profile? Or would you encourage them to update some profile in a certain way (ex. add a project or something to their profile on linkedin).</p><ul><li>We won&rsquo;t host a profile beyond the very basic profile provided by Discourse. If there was an easy and elegant way of extending that, I think we would prefer to be able to host more information.&nbsp;</li></ul>
+<ul class="comment"><li>Do you think people taking this course would have an online profile somewhere else that they manage themselves?</li></ul>
+
+<p>What happens with discourse after the course? How long do you host it?</p><ul><li>Indefinitely. We are designing LCL2 as a pathways into the creative learning community, not as a course that starts and then just ends.&nbsp;</li></ul>
+
+<p>Where is the content hosted? Is there content?&nbsp;</p><ul><li>The website is hosted on Github Pages.</li>
+<li>The syllabus will be a static HTML page (we are still considering to embed a GDoc, but will probably not do that) on the course site.&nbsp;</li>
+<li>There will be videos as well. They will be available &quot;live&quot; through unhangouts. And archived through youtube.&nbsp;</li>
+<li>Readings and other resources are linked to.</li></ul>
+
+<p>What is the primary user experience for learners? Sign up -&gt; get email when course starts -&gt; get weekly email? or discover discussions on twitter,etc -&gt; join discuss community -&gt; participate?</p><ul><li>Different possibilities:&nbsp;<ul><li>Traditional learner: Sign-up, get emails, join &quot;live&quot; seminar (or watch recording), do activity, share on discourse</li>
+<li>Opportunistic learner: Find course overview on course home, join some of the seminars, participate in some of the activities, use discourse for general discussion, not only tied to activities</li></ul>
+</ul>
+
+<p>What is the main entry point for users? The mailchimp list or joining the discourse community? (probably ties into above)</p><ul><li>Both ;-) We expect new users to go via <a href="http://learn.media.mit.edu"></a>http://learn.media.mit.edu and then choose their preferred pathways.</li></ul>
+
+<p>Are you planning on using something like badges?</p><ul><li>Not at this point.&nbsp;</li></ul>
+
+<p>Are people creating things again like the previous time with Scratch and other tools?</p><ul><li>Yes. The course is based around weekly activities, some of which use tools like Scratch.&nbsp;</li></ul>
+
+<p>Will it produce links that the users can post somewhere? Where? Can we scrape the links? Will it be useful if we can?</p><p></p><p>What is your measure for success for this course? big community? lots of eyeballs on content? lots of discussion?</p><ul><li>Number of participants at live events</li>
+<li>Quality of discussion on discourse</li>
+<li>Number of projects that emerge from phase II (which we haven&rsquo;t talked about so far, and should do at another time)</li></ul>
+
+<p>What are the costs associated with setting up the tech resources, running it and maintaining it into the future?</p><p></p><p>Are there any specific plans to distribute content in other language?</p><p></p><p>Will you address accessibility&nbsp; - transcribe videos, make sure the content is compatible with a screen reader, etc.</p><p></p></body>
+</html>
